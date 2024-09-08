@@ -1,0 +1,183 @@
+{
+    "name": "Web3 & Blockchain Topics",
+    "definition": "An overview of various topics related to Web3 and blockchain technologies.",
+    "children": [
+      {
+        "name": "Web3 Intro",
+        "definition": "Introduction to Web3, a new paradigm of the internet based on decentralized technologies.",
+        "children": [
+          {
+            "name": "Web3",
+            "definition": "Web3 refers to the third generation of the web, which aims to create a decentralized web using blockchain technologies.",
+            "children": [
+              { "name": "Web3.0", "definition": "Web3.0 is the next generation of the web, emphasizing decentralization and user control." },
+              { "name": "Web3 Stack", "definition": "The technology stack that supports Web3 applications, including blockchain, smart contracts, and decentralized storage." },
+              { "name": "Web3 Standards", "definition": "Standards and protocols that define how Web3 applications and services should interact." },
+              { "name": "Web3 Wallet", "definition": "A digital wallet used to store and manage cryptocurrencies and interact with decentralized applications." }
+            ]
+          },
+          { "name": "Communities", "definition": "Groups and forums where people discuss and develop Web3 technologies." },
+          { "name": "Project Overview", "definition": "A high-level summary of Web3 projects and their objectives." }
+        ]
+      },
+      {
+        "name": "Blockchain Main/Testnet",
+        "definition": "Core concepts and networks related to blockchain technology and its testing environments.",
+        "children": [
+          {
+            "name": "Blockchain",
+            "definition": "A decentralized ledger technology that records transactions across a distributed network.",
+            "children": [
+              { "name": "Blockchain 1.0", "definition": "The original blockchain technology primarily used for cryptocurrencies like Bitcoin." },
+              { "name": "Blockchain 2.0", "definition": "An advanced blockchain technology that introduced smart contracts and more complex use cases." },
+              { "name": "Blockchain 3.0", "definition": "The latest evolution of blockchain technology aimed at scalability, interoperability, and sustainability." },
+              { "name": "Public Blockchain", "definition": "A type of blockchain that is open to anyone and is not controlled by a single entity." },
+              { "name": "Private Blockchain", "definition": "A type of blockchain that is restricted to a specific group or organization." }
+            ]
+          },
+          { "name": "Mainnet", "definition": "The main blockchain network where real transactions occur." },
+          { "name": "Testnet", "definition": "A blockchain network used for testing and development purposes before deploying to the mainnet." },
+          { "name": "Smart Contracts", "definition": "Self-executing contracts with the terms of the agreement directly written into code." },
+          {
+            "name": "Consensus Mechanisms",
+            "definition": "Protocols that ensure all nodes in a blockchain network agree on the state of the ledger.",
+            "children": [
+              { "name": "PoW (Proof of Work)", "definition": "A consensus mechanism that requires participants to solve complex mathematical problems to validate transactions." },
+              { "name": "PoS (Proof of Stake)", "definition": "A consensus mechanism where validators are chosen based on the number of coins they hold and are willing to 'stake' as collateral." },
+              { "name": "Byzantine Fault Tolerance", "definition": "A consensus mechanism that allows a distributed network to reach consensus even if some nodes fail or act maliciously." }
+            ]
+          },
+          {
+            "name": "Forks",
+            "definition": "Changes or updates to the blockchain protocol that result in a divergence in the blockchain.",
+            "children": [
+              { "name": "Hard Fork", "definition": "A significant change in the blockchain protocol that is not backward-compatible." },
+              { "name": "Soft Fork", "definition": "A minor change in the blockchain protocol that is backward-compatible." },
+              { "name": "Accidental Fork", "definition": "An unintended split in the blockchain due to issues or bugs in the protocol." }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wallets",
+        "definition": "Tools and methods for storing and managing digital assets.",
+        "children": [
+          {
+            "name": "Wallets",
+            "definition": "Various types of digital wallets used to manage cryptocurrencies and interact with blockchain applications.",
+            "children": [
+              { "name": "Wallet Address", "definition": "A unique identifier used to send and receive cryptocurrency transactions." },
+              { "name": "Hardware Wallet", "definition": "A physical device used to securely store cryptocurrency offline." },
+              { "name": "Software Wallet", "definition": "A digital application used to store and manage cryptocurrency." },
+              { "name": "Cold Wallet", "definition": "A wallet that is not connected to the internet, providing increased security." },
+              { "name": "Hot Wallet", "definition": "A wallet connected to the internet, allowing for easier access but potentially less secure." }
+            ]
+          },
+          { "name": "MetaMask", "definition": "A popular browser extension wallet for managing Ethereum-based assets." },
+          { "name": "Private Key", "definition": "A secret key used to access and control cryptocurrency assets." },
+          { "name": "Mnemonic Phrase", "definition": "A sequence of words used to recover a cryptocurrency wallet." },
+          { "name": "Seed Phrase", "definition": "A series of words used to generate a wallet’s private keys and recover the wallet." }
+        ]
+      },
+      {
+        "name": "Safety in Crypto",
+        "definition": "Best practices and security measures to protect digital assets and information.",
+        "children": [
+          {
+            "name": "Common Threats",
+            "definition": "Various risks and attacks that target cryptocurrency users and systems.",
+            "children": [
+              { "name": "Phishing", "definition": "A method of tricking individuals into disclosing sensitive information through fraudulent communication." },
+              { "name": "Hacking", "definition": "Unauthorized access to systems or accounts with the intent to steal or damage information." },
+              { "name": "Brute Force Attack", "definition": "A method of breaking into a system by trying all possible passwords until the correct one is found." }
+            ]
+          },
+          {
+            "name": "Avoiding Threats",
+            "definition": "Strategies and practices to mitigate and avoid common security risks in the cryptocurrency space.",
+            "children": [
+              { "name": "2FA", "definition": "Two-Factor Authentication, an extra layer of security that requires a second form of verification." },
+              { "name": "Encryption", "definition": "The process of converting information into a secure format to prevent unauthorized access." },
+              { "name": "Private Key Management", "definition": "Best practices for securely handling and storing private keys to protect assets." }
+            ]
+          },
+          { "name": "Proof of Membership (PoM)", "definition": "A method to prove membership in a group or organization using digital tokens." },
+          { "name": "Security Tokens", "definition": "Digital tokens that represent ownership of a real-world asset or investment." },
+          {
+            "name": "Regulations",
+            "definition": "Legal and regulatory frameworks governing the use and management of cryptocurrencies and blockchain technologies.",
+            "children": [
+              { "name": "AML", "definition": "Anti-Money Laundering, regulations designed to prevent money laundering through financial systems." },
+              { "name": "KYC", "definition": "Know Your Customer, regulations that require businesses to verify the identities of their clients." }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tokens (General)",
+        "definition": "Information about various types of tokens used in blockchain ecosystems.",
+        "children": [
+          {
+            "name": "Tokens",
+            "definition": "Digital assets created on a blockchain that can represent various forms of value or utility.",
+            "children": [
+              { "name": "ERC-20", "definition": "A standard for creating and issuing fungible tokens on the Ethereum blockchain." },
+              { "name": "ERC-721", "definition": "A standard for creating and issuing non-fungible tokens (NFTs) on the Ethereum blockchain." },
+              { "name": "Utility Token", "definition": "A token that provides access to a product or service within a blockchain-based ecosystem." },
+              { "name": "Governance Token", "definition": "A token that grants holders voting rights on decisions related to a blockchain project or protocol." }
+            ]
+          },
+          { "name": "Tokenization", "definition": "The process of converting real-world assets into digital tokens on a blockchain." },
+          { "name": "Tokenomics", "definition": "The study of the economic aspects of tokens, including their supply, distribution, and utility." },
+          { "name": "Stablecoins", "definition": "Cryptocurrencies designed to maintain a stable value relative to a fiat currency or other assets." },
+          { "name": "Gas Fees", "definition": "Transaction fees paid to miners or validators on a blockchain network to process and validate transactions." }
+        ]
+      },
+      {
+        "name": "NFTs",
+        "definition": "Non-fungible tokens that represent ownership of unique digital assets.",
+        "children": [
+          {
+            "name": "NFT",
+            "definition": "A type of digital asset that represents ownership of a unique item or piece of content on the blockchain.",
+            "children": [
+              { "name": "Non-Fungible Tokens", "definition": "Unique digital tokens that cannot be exchanged on a one-to-one basis with other tokens." },
+              { "name": "NFT Marketplace", "definition": "Online platforms where users can buy, sell, and trade NFTs." },
+              { "name": "NFT Standard", "definition": "Specifications and protocols for creating and managing NFTs on a blockchain." }
+            ]
+          },
+          { "name": "Digital Art", "definition": "Art created and owned as digital assets, often represented as NFTs." },
+          { "name": "Collectibles", "definition": "Unique digital items that can be collected and traded, often represented as NFTs." },
+          { "name": "Royalties", "definition": "Payments made to creators or rights holders whenever an NFT is sold or transferred." }
+        ]
+      },
+      {
+        "name": "SBTs (PoM Memberships as an Example)",
+        "definition": "Soulbound Tokens and their use in representing membership and identity.",
+        "children": [
+          { "name": "Soulbound Tokens (SBTs)", "definition": "Non-transferable tokens that represent personal attributes, memberships, or credentials." },
+          { "name": "Proof of Membership (PoM)", "definition": "A method to demonstrate membership or affiliation using digital tokens." },
+          { "name": "Digital Identity", "definition": "An electronic representation of an individual’s identity used in digital interactions." },
+          { "name": "Verifiable Credentials", "definition": "Credentials that can be verified and trusted through cryptographic methods." }
+        ]
+      },
+      {
+        "name": "DAOs",
+        "definition": "Decentralized Autonomous Organizations that operate through smart contracts and decentralized governance.",
+        "children": [
+          {
+            "name": "DAO",
+            "definition": "A decentralized organization governed by smart contracts and community voting, without centralized leadership.",
+            "children": [
+              { "name": "Decentralized Autonomous Organization", "definition": "An organization run by smart contracts and blockchain technology, allowing for decentralized decision-making." }
+            ]
+          },
+          { "name": "DAO Governance Tokens", "definition": "Tokens used to participate in the governance and decision-making processes of a DAO." },
+          { "name": "DAO Treasury", "definition": "The fund or assets controlled by a DAO, managed according to its governance rules." },
+          { "name": "DAO Governance Models", "definition": "Different approaches to how decisions are made within a DAO." },
+          { "name": "Community Governance", "definition": "A system where decisions are made collectively by the members of a community or DAO." }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,77 @@
+{
+    "name": "CEO",
+    "definition": "Chief Executive Officer: The highest-ranking person in a company or organization.",
+    "children": [
+      {
+        "name": "Manager",
+        "definition": "Oversees and coordinates activities within a department.",
+        "attributes": {
+          "department": "Production"
+        },
+        "children": [
+          {
+            "name": "Foreman",
+            "definition": "A person in charge of a group of workers.",
+            "attributes": {
+              "department": "Fabrication"
+            },
+            "children": [
+              {
+                "name": "Workers",
+                "definition": "Employees who carry out the tasks assigned by the Foreman."
+              }
+            ]
+          },
+          {
+            "name": "Foreman",
+            "definition": "A person in charge of a group of workers.",
+            "attributes": {
+              "department": "Assembly"
+            },
+            "children": [
+              {
+                "name": "Workers",
+                "definition": "Employees who carry out the tasks assigned by the Foreman."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Manager",
+        "definition": "Oversees and coordinates activities within a department.",
+        "attributes": {
+          "department": "Marketing"
+        },
+        "children": [
+          {
+            "name": "Sales Officer",
+            "definition": "Responsible for managing sales activities and sales staff.",
+            "attributes": {
+              "department": "A"
+            },
+            "children": [
+              {
+                "name": "Salespeople",
+                "definition": "Employees who directly interact with customers to sell products or services."
+              }
+            ]
+          },
+          {
+            "name": "Sales Officer",
+            "definition": "Responsible for managing sales activities and sales staff.",
+            "attributes": {
+              "department": "B"
+            },
+            "children": [
+              {
+                "name": "Salespeople",
+                "definition": "Employees who directly interact with customers to sell products or services."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
